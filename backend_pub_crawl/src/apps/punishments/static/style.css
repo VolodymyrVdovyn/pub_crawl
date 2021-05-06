@@ -1,0 +1,20 @@
+body {
+    font-size: 4rem;
+}  
+
+.my {
+    text-align: center;
+    text-decoration: none;
+
+    /* font-size: 50px; */
+
+}
+
+.my-div {
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.my-description-text {
+    font-size: 3rem;
+}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %} Рівні складності {% endblock title %}
+
+
+{% block content %}
+<div>
+        {% for level in level_list %}
+        <a href="{% url 'level_detail' level.url %}" class="alert-link my">
+                <div class="alert alert-primary my-div" role="alert">
+                        {{ level.name }}
+                </div>
+        </a>
+        {% endfor %}
+</div>
+{% endblock content %}
